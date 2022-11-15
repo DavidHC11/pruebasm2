@@ -12,3 +12,10 @@ def resta(lista):
         resta -= x
 
     return resta 
+
+def multiplicacion(lista):
+    multiplicacion = 0
+    for x in lista:
+        multiplicacion *= x
+
+    return multiplicacion 
